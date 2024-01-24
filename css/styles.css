@@ -1,0 +1,59 @@
+/* Estilos globales */
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.logo-img{
+width: 7rem;
+}
+
+/* Inicio de header */
+header{
+    background-image: url(../img/background-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    margin-top: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 0;
+}
+.enlace-color {
+    color: rgba(78, 78, 78);
+}
+.heading1-color {
+    color: rgb(78, 78, 78);
+}
+.heading1-color {
+    text-align: center;
+    font-size: 3rem;
+}
+.heading2-size {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Fin del header */
+
+/* inicio del main */
+.imagen-perro {
+    width: 100%;
+}
+.imagen-gato {
+    width: 100%;
+}
+
+/* Fin del main */
+
+/* Inicio del footer */
+.footer1{
+    text-align: center;
+}
+/* Fin del footer */
